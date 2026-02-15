@@ -1,6 +1,7 @@
 # Project-quadtree
 
 ![Capture d'écran du Jeu](./HideMe/InGameCapture.PNG)
+
 Ce projet fut l'un des projets de première année, il est codé en Goland et il s'agît d'une adaptation d'un code basique d'un jeu cubique.
 
 J'ai fait le choix de transformer le Jeu pour pouvoir acceuillir du Multijoueur, pour que les textures soient plus jolies que celles qui étaient données par défaut ainsi que de pouvoir se balader à l'infini avec génération de chunks. J'ai en plus ajouter des particules, un cycle jour/nuit et des musiques choissies de façon intelligentes (de façon à ce que ce soit pas toujours les mêmes) ainsi que des bruits d'ambiances.
