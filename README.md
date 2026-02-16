@@ -9,6 +9,7 @@ J'ai fait le choix de transformer le Jeu pour pouvoir acceuillir du Multijoueur,
 Le multijoueur ne fonctionne pas toujours super bien (concernant les mouvements), le version finale a été supprimée, le jeu actuel est la dernière version que j'ai pu retrouver !
 
 ## Comment lancer le jeu
+- Installer Goland si ce n'est pas déjà fait depuis ce lien : [Installer Goland ici](https://go.dev/doc/install)
 - Ouvrir un terminal
 - Se placer dans le bon répertoire (se placer dans ce dossier puis le dossier cmd) avec la commande à écrire
 ```
