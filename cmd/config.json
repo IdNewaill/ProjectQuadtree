@@ -1,0 +1,72 @@
+{
+    "DebugMode": false,
+    "NumTileX": 10,
+    "NumTileY": 10,
+
+    "RealNumTileX": 10,
+    "RealNumTileY": 10,
+
+    "NumTileForDebug": 6,
+    "TileSize": 16,
+    "NumCharacterAnimImages": 4,
+    "NumFramePerCharacterAnimImage": 5,
+    "CameraMode": 1,
+    "FloorKind": 2,
+    "FloorFile": "../floor-files/terrain.txt",
+
+    "SizeBlockID": 2,
+
+    "OriginalKey": false,
+
+    "HotbarSelect": 0,
+    "InventoryItems": [[1,1],[2,0],[3,0],[4,0],[5,0],[7,0],[8,0],[9,0],[10,0]],
+    "HotbarON": true,
+
+    "HungerbarLevel": 15,
+    "HungerbarOn": true,
+
+    "UiInventaireOn": true,
+
+    "AmbiantLight": -0.5,
+    "BlocsLights": [14,49,55],
+    "Daycycle": false,
+
+    "ParticleOn": false,
+    "FireParticle": false,
+
+    "WoodBlocks": [4,5,11,42,45,46,47],
+    "StoneBlocks": [0,3,12,13,16,17,27,28,29,23,24,25,30,31,32,33,34,35,36,37,38,39,40,41,43,44,48,49,50,51,52],
+    "SandBlocks": [15],
+
+    "IceID": 23,
+    "Slide": true,
+
+    "CobwebID": 3,
+    "AffectedByCobweb": true,
+
+    "StairID": 6,
+    "OnStair": true,
+    "CanClimb": true,
+
+    "FurnaceID": 49,
+
+    "Blocking": [-1,4,8,9,10,11,12,13,16,17,35,36,37,38,39,40,41,42,43,46,47,48,49,50],
+    "NewBlocking": true,
+
+    "CanSelect": true,
+    "SelectPosY": 0,
+    "SelectPosX": 0,
+
+    "CanPlace": true,
+    "SoundsON":true,
+    "MapFileMode":false,
+
+    "PlayerName": "Host-Player1",
+    "PlayerSpawnX": 5,
+    "PlayerSpawnY": 5,
+    "CanStackPlayer": true,
+    "GameType": "load",
+    "GameDir": "../floor-dir/first-server",
+    "Seed": 31415,
+    "ServerAddr": "localhost:5060"
+}
