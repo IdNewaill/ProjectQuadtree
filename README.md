@@ -9,7 +9,7 @@ J'ai fait le choix de transformer le Jeu pour pouvoir acceuillir du Multijoueur,
 Le multijoueur ne fonctionne pas toujours super bien (concernant les mouvements), le version finale a été supprimée, le jeu actuel est la dernière version que j'ai pu retrouver !
 
 ## Comment lancer le jeu
-Deux choix s'offrent à vous pour tester le projet, le premier : ouvrir ce fichier .EXE [ici](./cmd/main.exe) mais ne permet que de jouer en tant qu'hôte de partie sur windows ou sinon, vous pouvez lancer le jeu avec Goland en suivant les instructions suivante :
+Deux choix s'offrent à vous pour tester le projet, le premier : ouvrir ce fichier .EXE [ici](./cmd/main.exe) mais cela ne permet de jouer en seulement en tant qu'hôte de partie (et seulement sur windows) ou sinon, vous pouvez lancer le jeu avec Goland en suivant les instructions suivante :
 
 - Installer Goland si ce n'est pas déjà fait depuis ce lien : [Installer Goland ici](https://go.dev/doc/install)
 - Ouvrir un terminal
@@ -18,7 +18,7 @@ Deux choix s'offrent à vous pour tester le projet, le premier : ouvrir ce fichi
 cd <répertoire>/cmd
 ```
 
-Ensuite faire le choix de host ou client (local)
+Ensuite faire le choix de host ou client (local) en suivant les instructions associées en dessous :
 - Pour lancer le jeu en tant qu'hôte principal
 ```
 go run main.go -config config-host.json
@@ -29,8 +29,8 @@ go run main.go -config config-host.json
 go run main.go -config config-client.json
 ```
 
-Pour modifier son nom ou ip et port en étant hôte principal [cliquez ici](./cmd/config.json) et en tant que client / hôte secondaire [cliquez ici](./cmd/config-client.json).
+Pour modifier son nom ou ip et port en étant hôte principal avant de lancer le jeu [cliquez ici](./cmd/config.json) et en tant que client / hôte secondaire [cliquez ici](./cmd/config-client.json).
 
-Il faut rechercher ServerAddr et PlayerName en bas du fichier !
+Il faut rechercher ServerAddr et PlayerName en bas du fichier et modifier leur valeur actuelle par les nouvelles que vous voulez leur attribuer (optionnel) !
 
-La map générée avec une seed est stockée dans floor-dir. Pour recommencer une nouvelle map, vous pouvez supprimer tous les chunks (la map n'est pas générée entièrement dès le chargement du jeu!).
+La map générée avec une seed est stockée dans floor-dir. Pour recommencer une nouvelle map, vous pouvez supprimer tous les fichers chunks depuis ce même dossier (la map n'est pas générée entièrement dès le chargement du jeu!).
